@@ -5,8 +5,8 @@
 }
 
 body {
-  font-family: 'Segoe UI', Roboto, sans-serif;
-  background: #c8c8e8;
+  font-family: Roboto, sans-serif;
+  background: #E3E5F5;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -29,7 +29,6 @@ form {
 
 .title {
   font-size: 30px;
-  font-weight: 700;
   text-align: center;
   margin-bottom: 12px;
   color: #000;
@@ -43,7 +42,7 @@ form {
 }
 
 .subtitle a {
-  color: #4845e4;
+  color: #4644B6;
   text-decoration: none;
   font-weight: 600;
 }
@@ -84,7 +83,7 @@ form {
   align-items: center;
   justify-content: center;
   padding: 14px 18px;
-  border: 2px solid #4d4db8;
+  border: 2px solid #4644B6;
   border-radius: 8px;
   background: white;
   cursor: pointer;
@@ -118,13 +117,10 @@ form {
 .email-login label {
   display: block;
   color: #b8b8b8;
-  font-size: 13px;
+  font-size: 20px;
   margin-bottom: 10px;
 }
 
-.email-login label b {
-  font-weight: 600;
-}
 
 .email-login input {
   width: 100%;
@@ -140,7 +136,7 @@ form {
 .cta-btn {
   width: 100%;
   padding: 16px;
-  background: #4845e4;
+  background: #4644B6;
   color: white;
   border: none;
   border-radius: 8px;
@@ -153,8 +149,8 @@ form {
 .forget-pass {
   display: block;
   text-align: center;
-  color: #4845e4;
+  color: #4644B6;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 500;
 }
